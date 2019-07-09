@@ -1,1 +1,1 @@
-# SwiftGit
+# Swift
