@@ -24,12 +24,20 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="병우 두번째 수정" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Eqx-rz-VhX">
+                                <rect key="frame" x="151" y="535" width="112" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="Wn5-bP-oZT" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" id="0a8-HL-VeQ"/>
                             <constraint firstItem="Wn5-bP-oZT" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="Kff-8G-sRJ"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Eqx-rz-VhX" secondAttribute="bottom" constant="306" id="nZm-Es-hNH"/>
                             <constraint firstItem="Wn5-bP-oZT" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="sfb-qW-zPe"/>
+                            <constraint firstItem="Eqx-rz-VhX" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="tmI-aq-JE3"/>
                             <constraint firstItem="Wn5-bP-oZT" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="xCh-ZF-Epf"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -51,7 +59,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xOL-9J-5Fw" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="781" y="153"/>
+            <point key="canvasLocation" x="817" y="116"/>
         </scene>
     </scenes>
 </document>
